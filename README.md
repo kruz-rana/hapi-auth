@@ -1,0 +1,2 @@
+# hapi-auth
+server setup 
