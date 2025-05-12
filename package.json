@@ -1,0 +1,35 @@
+{
+  "name": "hapi-auth",
+  "version": "1.0.0",
+  "description": "server setup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server1.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kruz-rana/hapi-auth.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kruz-rana/hapi-auth/issues"
+  },
+  "homepage": "https://github.com/kruz-rana/hapi-auth#readme",
+  "dependencies": {
+    "@hapi/hapi": "^21.4.0",
+    "@hapi/joi": "^17.1.1",
+    "@hapi/jwt": "^3.2.0",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "fs": "^0.0.1-security",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.13.2"
+  }
+}
